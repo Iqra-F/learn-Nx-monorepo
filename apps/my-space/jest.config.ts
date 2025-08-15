@@ -1,5 +1,5 @@
 import type { Config } from 'jest';
-import nextJest from 'next/jest.js';
+import nextJest from 'next/jest';
 
 const createJestConfig = nextJest({
   dir: './',
@@ -8,6 +8,7 @@ const createJestConfig = nextJest({
 const config: Config = {
   displayName: '@my-space/my-space',
   preset: '../../jest.preset.js',
+  setupFilesAfterEnv: ['<rootDir>/src/jest.setup.ts'],
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',
   },

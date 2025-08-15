@@ -8,6 +8,12 @@
     },
     {
       "path": "./apps/my-space"
+    },
+    {
+      "path": "./apps/space-api-e2e"
+    },
+    {
+      "path": "./apps/space-api"
     }
   ]
 }
