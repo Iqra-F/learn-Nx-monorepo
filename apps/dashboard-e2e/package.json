@@ -1,0 +1,10 @@
+{
+  "name": "@my-space/dashboard-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@my-space/dashboard"
+    ]
+  }
+}
